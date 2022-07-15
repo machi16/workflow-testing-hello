@@ -1,5 +1,4 @@
 on: [push]
-
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
@@ -9,6 +8,6 @@ jobs:
       - id: foo
         uses: actions/hello-world-composite-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Manoj'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
