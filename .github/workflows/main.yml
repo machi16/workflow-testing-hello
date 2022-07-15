@@ -9,6 +9,6 @@ jobs:
         uses: machi16/hello-world-composite-action@v1
 
         with:
-          who-to-greet: 'Manojkumar'
+          who-to-greet: 'ManojkumarCH'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
